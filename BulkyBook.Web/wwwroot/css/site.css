@@ -1,0 +1,95 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+/* Overried style the button */
+
+/*Continer of the expert button*/
+.dt-buttons{
+    margin-bottom:20px;
+  
+}
+.dataTables_filter {
+    margin-bottom: 20px;
+}
+/* all button */
+button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+    margin-left: 0em;
+    margin-right: -0.36em;
+    margin-bottom: 0.333em;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* first button */
+    button.dt-button:first-child {
+        margin-left: 0;
+        background-color: #32aaaa !important;
+        border-radius: 7px 0 0 7px;
+    }
+    /* last button */
+    button.dt-button:last-child {
+        background-color: #32aaaa;
+        border-radius: 0 7px 7px 0;
+        -webkit-border-radius: 0 7px 7px 0;
+        -moz-border-radius: 0 7px 7px 0;
+        -ms-border-radius: 0 7px 7px 0;
+        -o-border-radius: 0 7px 7px 0;
+    }
+
+        button.dt-button:last-child:hover, button.dt-button:first-child:hover, .buttons-excel:hover {
+            background-color: #32aaaa !important;
+            opacity: 0.7 !important;
+        }
+
+.buttons-pdf {
+    background-color: #c0392b !important;
+}
+
+.buttons-excel {
+    background-color: #32aaaa !important;
+}
+
+.buttons-csv {
+    background-color: #c0392b !important;
+}
+
+    .buttons-pdf:hover,
+    .buttons-csv:hover,
+    .next:hover
+    .previous:hover {
+        opacity: 0.7 !important;
+    }
+
+/*.next .page-link {
+    color: #fff;
+    background-color: #375a7f !important;
+    border-color: #375a7f;
+}
+
+.previous .page-link {
+    color: #fff;
+    background-color: #375a7f !important;
+    border-color: #375a7f;
+}*/
+
+.swal2-cancel {
+    margin-right: 7.5px;
+}
+
+.swal2-confirm {
+    margin-left: 7.5px;
+}
